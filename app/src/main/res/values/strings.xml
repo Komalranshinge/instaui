@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">insta2</string>
+    <string name="instagram">Instagram</string>
+    <string name="welcome_to_instagram">Welcome To Instagram</string>
+    <string name="Welcome">Welcome To Instagram</string>
+    <string name="sign_in_to_continue">Sign In To Continue</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="go">Go</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forget_pasword">Forget Password</string>
+    <string name="Go">Go</string>
+    <string name="new_user_sign_up">New User?Sign Up</string>
+    <string name="forget_passsword">Forget Password</string>
+    <string name="new_user">New User</string>
+    <string name="signup_here">SignUp Here</string>
+    <string name="full_name">Full Name</string>
+    <string name="Username">Username</string>
+    <string name="emails">Emails</string>
+    <string name="phone_no">Phone No</string>
+    <string name="already_have_an_account">Already Have An Account</string>
+    <string name="welcome">Welcome</string>
+    <string name="already_have_an_Account">Already Have An Account</string>
+    <string name="already_have_an_Acount">Already Have An Account</string>
+    <string name="Welcome_to_Instagram">Welcome To Instagram</string>
+    <string name="hello_instagram_users">Hello Instagram Users</string>
+    <string name="name">Name</string>
+</resources>

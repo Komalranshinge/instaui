@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:contentDescription=""
+        android:padding="20dp"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/logo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-20dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/welcome"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/slogan_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="@string/signup_here"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+
+        <EditText
+            android:id="@+id/name"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textColorHint="#757575"
+            tools:ignore="VisualLintTextFieldSize,TextContrastCheck,SpeakableTextPresentCheck,DuplicateSpeakableTextCheck" />
+
+
+        <EditText
+            android:id="@+id/username"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Username"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textColorHint="#757575"
+            tools:ignore="VisualLintTextFieldSize,TextContrastCheck,SpeakableTextPresentCheck" />
+
+
+        <EditText
+            android:id="@+id/email"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/emails"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textColorHint="#757575"
+            tools:ignore="VisualLintTextFieldSize,TextContrastCheck,SpeakableTextPresentCheck" />
+
+
+        <EditText
+            android:id="@+id/phone"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone_no"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textColorHint="#757575"
+            tools:ignore="VisualLintTextFieldSize,TextContrastCheck,SpeakableTextPresentCheck" />
+
+
+        <EditText
+            android:id="@+id/pass"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColorHint="#757575"
+            app:passwordToggleEnabled="true"
+            tools:ignore="VisualLintTextFieldSize,TextContrastCheck,SpeakableTextPresentCheck" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:id="@+id/btn1"
+        android:text="@string/go"
+        android:textColor="#fff"
+        tools:ignore="TouchTargetSizeCheck,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/already_have_an_Acount"
+        tools:ignore="TextContrastCheck,VisualLintButtonSize" />
+
+
+
+
+</LinearLayout>
